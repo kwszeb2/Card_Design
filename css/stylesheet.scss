@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px 50px;
+    justify-content: space-evenly;
+}
+
+@mixin colStyle {
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.title, .price, .address {
+    font-size: 24px;
+    font-weight: bold;    
+}
+
+.price, .address {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stamp {
+    display: flex;
+    justify-content: right;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    padding: 15px 0;
+}
+
+$columns: 6;
+
+@for $i from 1 through $columns {
+    .col-#{$i} {
+        @include colStyle;
+        justify-content: space-evenly;
+        margin: 30px;
+        padding: 20px;
+    }
+}

@@ -1,0 +1,111 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  gap: 10px 50px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.title, .price, .address {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.price, .address {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.stamp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  padding: 15px 0;
+}
+
+.col-1 {
+  border: 1px solid black;
+  border-radius: 15px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 30px;
+  padding: 20px;
+}
+
+.col-2 {
+  border: 1px solid black;
+  border-radius: 15px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 30px;
+  padding: 20px;
+}
+
+.col-3 {
+  border: 1px solid black;
+  border-radius: 15px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 30px;
+  padding: 20px;
+}
+
+.col-4 {
+  border: 1px solid black;
+  border-radius: 15px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 30px;
+  padding: 20px;
+}
+
+.col-5 {
+  border: 1px solid black;
+  border-radius: 15px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 30px;
+  padding: 20px;
+}
+
+.col-6 {
+  border: 1px solid black;
+  border-radius: 15px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 30px;
+  padding: 20px;
+}
+/*# sourceMappingURL=stylesheet.css.map */
